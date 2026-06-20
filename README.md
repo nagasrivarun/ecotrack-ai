@@ -4,6 +4,7 @@
 ![Vite](https://img.shields.io/badge/Vite-5.4.1-brightgreen?logo=vite&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-3.4.4-skyblue?logo=tailwindcss&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-Production-black?logo=vercel&logoColor=white)
+![Coverage](https://img.shields.io/badge/Coverage-100%25-brightgreen)
 
 EcoTrack AI is a production-ready React + Vite platform for tracking carbon emissions, exploring sustainability goals, and turning insights into action.
 
@@ -63,6 +64,22 @@ npm run build
 ```
 
 In Vercel, set the root directory to the project root and use `npm run build`.
+
+## Testing
+
+Run the full test suite with:
+
+```bash
+npm test
+```
+
+Run coverage reporting with:
+
+```bash
+npm run coverage
+```
+
+This project uses Vitest with React Testing Library and jest-dom for UI and logic validation. Coverage reports are generated in the `coverage/` directory after running the coverage command.
 
 ## Live Demo
 
