@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07101f" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="20" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="60" y="60" width="1080" height="510" rx="48" fill="rgba(15,23,42,0.85)" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+  <circle cx="300" cy="220" r="110" fill="url(#accent)" filter="url(#glow)" opacity="0.45" />
+  <path d="M300 120C360 120 400 180 400 240C400 300 360 360 300 360C240 360 200 300 200 240C200 180 240 120 300 120Z" fill="#0f172a" />
+  <path d="M300 150C335 150 360 185 360 225C360 265 335 300 300 300C265 300 240 265 240 225C240 185 265 150 300 150Z" fill="#22c55e" />
+  <path d="M225 225L300 180L375 225" fill="none" stroke="#f8fafc" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="640" y="240" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="62" font-weight="700">EcoTrack AI</text>
+  <text x="640" y="320" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="32">Carbon Footprint Awareness Platform</text>
+  <text x="640" y="380" fill="#d1d5db" font-family="Inter, system-ui, sans-serif" font-size="24">Track emissions, visualize impact, and reduce your footprint with AI insights.</text>
+  <rect x="640" y="420" width="370" height="90" rx="26" fill="#0f172a" opacity="0.9" />
+  <text x="660" y="470" fill="#22c55e" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="600">Modern sustainability analytics for people and teams.</text>
+</svg>
